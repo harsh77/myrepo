@@ -1,0 +1,12 @@
+test.page.json:
+  path: 'page_json/{apikey}/{node}'
+  defaults:
+    _controller: '\Drupal\test\Controller\TestController::overview'
+    _title: 'Json Data'
+  requirements:
+    _custom_access: '\Drupal\test\Controller\TestController::checkOverviewAccess'
+    node: \d+
+  options:
+    parameters:
+      node:
+        type: entity:node  

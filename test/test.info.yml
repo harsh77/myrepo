@@ -1,0 +1,6 @@
+name: Drupal 8 test
+type: module
+description: 'My test module for testing purpose.'
+version: '8.0.0'
+core: '8.x'
+package: Custom

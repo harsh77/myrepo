@@ -1,0 +1,9 @@
+# Schema for the configuration files of the test module.
+
+system.site:
+  type: config_object
+  label: 'Site information'
+  mapping:
+    siteapikey:
+      type: string
+      label: 'Site API Key'
